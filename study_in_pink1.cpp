@@ -243,7 +243,7 @@ int traceLuggage(int & hp1, int & exp1, int & m1, int e2) {
     bool is_odd = ((int(E2) % 2) != 0);
 
     do {
-        if (!check_money(nail_M1, 1, HP1, EXP1, is_odd)) {
+        if (!check_money(nail_M1, 1, HP1, EXP1, false)) {
             break;
         }
         if (HP1 < 200) {
